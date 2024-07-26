@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika Negative", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.header-part-1 {
+
+    background-color: #11421E;
+    height: 5.1vh;
+    display: flex;
+    align-items: center;
+    padding: 1vw 5vw;
+    justify-content: space-between;
+}
+
+.header-part-1-1 {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-part-1-1 h4 {
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+#google {
+    width: 3vw;
+    background-color: white;
+    border-radius: 30% 0% 30% 0%;
+}
+
+.header-part-1-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 400;
+    font-family: "Calibri";
+}
+
+.header-part-2 {
+    margin: auto;
+    width: 85%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+}
+
+.nav {
+    text-transform: capitalize;
+    cursor: pointer;
+    gap: 37px;
+    align-items: center;
+    display: flex;
+}
+
+.nav h5 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.nav-button>h1 {
+    gap: 10px;
+    justify-content: center;
+    width: 180px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+    background-color: #11421E;
+
+}
+
+/* #virto{
+    z-index: -2;
+transform: translate(-1%, -5%)rotate(0deg);
+} */
+.hero {
+    position: relative;
+    background-image: url("Virto_Swoosh_Kleur\ 1.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    margin: auto;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    height: 81%;
+    width: 80%;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.hero-text h1 {
+    letter-spacing: 3px;
+    line-height: 60px;
+    font-size: 42px;
+    color: #11421E;
+    width: 30%;
+}
+
+.hero-text h1::after {
+    position: absolute;
+    top: 18%;
+    left: 28%;
+    content: url(Sketch-annotation-element-stroke-abstract-highlight-bling-line-1.png);
+}
+
+.hero-text>h5 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    color: #11421E;
+    width: 32%;
+    line-height: 35px;
+    letter-spacing: 3px;
+}
+
+.start-trail-leeson-button {
+    display: flex;
+    width: 50%;
+    letter-spacing: normal;
+    gap: 10px;
+}
+
+.start-trail-leeson-button h5 {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: #11421E;
+    height: 48px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.image-group {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    width: 80%;
+}
+
+.image-group::after {
+    content: url(Star\ 1\ \(1\).png);
+}
+
+.image-group::after {
+    position: absolute;
+    top: -3%;
+    left: 56%;
+    content: url(Vector\ 12.png);
+}
+
+.image-group>img {
+    width: 45%;
+}
+
+.hero-part2 {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.hero-part2-text {
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.hero-part2-text>h1 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 20%;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+.hero-part2-text>h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-left: 10px;
+    height: 15%;
+    font-weight: 400;
+    font-size: 28px;
+    border-left: 1px solid black;
+    letter-spacing: 2px;
+}
+
+.hero-part2-text>h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 15%;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#Read {
+    padding-top: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+    display: flex;
+    /* justify-content: left; */
+    border-bottom: 1px solid grey;
+}
+
+.hero-part2-text::after {
+    content: url("https://s3-alpha-sig.figma.com/img/aad9/8774/66c7247497f4be8627ecd8a888f795ba?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vu5~vSHTFY5tGtxWMAoXua3d9G~dvZy8sIhIuRWYolFJcavXGSvXCove9Tox8a4CAieNOlOiXdfU7rhwPx8AFSEQhPdhufp36bIStEPPQn-LrtU63gHeyqv1tUH0e4azT3q-AUkypMP0HA5CzUCsVFJeTNLxl6hBn2RE-qnSSKqyWKX5zJyjEyDKl5yWvz8PBCFMF4uhFhNP1ZBLmNOgfXdmZiHQyLRTQ2HSNL1JxuuLHgFbZnCFbglBgno5e90PiqHadX3~sBqquOw0o5vdLmyZCApDhOqkq0CDnZ7Ru8uzozs72mUq3Vj6KfADvALms8MoIcGyMYAccDIShrC4vA__");
+    position: absolute;
+    z-index: -99;
+    top: 1%;
+    transform: translate(-10%, -10%) rotate(0deg);
+    left: 50%;
+}
+.page3{
+    width: 100%;
+    height: 100%;
+    background-color:#fcfff3;
+}
+.page3-text{
+    height: 40%;
+    color: #11421E;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
+.page3-text>h1{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+.page3-text>h5{
+    color: #09766C;
+    width: 54%;
+    text-align: center;
+  font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+}
+/* .page3-cards{
+    width: 100%;
+    height: 100%;
+    
+} */
+.page3-cards{background-color: #fcfff3;
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-1{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-red{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 22%;
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Rectangle\ 7750.png);
+}
+.card-red>h1{
+    text-transform: uppercase;
+    line-height: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.card-red>h5{
+    
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    line-height: 3♦0px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.card-blue{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 22%;
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Group\ 47288.png);
+}
+.card-blue>h1{
+    text-transform: uppercase;
+    line-height: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.card-blue>h5{
+    
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.card-pink{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 22%;
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Rectangle\ 7750\ \(1\).png);
+}
+.card-pink>h1{
+    text-transform: uppercase;
+    line-height: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.card-pink>h5{
+    
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.read{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: #95C11F;
+    width: 80%;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
